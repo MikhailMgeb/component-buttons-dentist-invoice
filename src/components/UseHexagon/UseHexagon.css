@@ -1,0 +1,12 @@
+.UseHexagon {
+   margin: 20px;
+   text-align: center;
+}
+
+.UseHexagon-Field {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   margin-left: 400px;
+   align-items: flex-start;
+}
