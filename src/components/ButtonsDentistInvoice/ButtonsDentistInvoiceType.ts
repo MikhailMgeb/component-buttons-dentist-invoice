@@ -14,3 +14,9 @@ export type ButtonsDentistInvoiceProps = {
     serviceName: ServiceName;
     price: ServicePrice;
 }
+
+export type CheckList = {
+    installingSeal: number;
+    channelCleaning: number;
+    treatmentCaries: number;
+} | any

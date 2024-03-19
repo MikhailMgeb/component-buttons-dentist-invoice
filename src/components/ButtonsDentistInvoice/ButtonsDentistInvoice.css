@@ -1,3 +1,8 @@
+.ButtonsDentistInvoice {
+    padding: 0;
+    margin: 40px;
+}
+
 .ButtonsDentistInvoice-Item {
     display: flex;
     gap: 20px;
@@ -65,4 +70,39 @@
     display: inline-block;
     text-align: center;
     width: 30px;
+}
+
+.ButtonsDentistInvoice-ColumnTotal {
+    min-height: 30px;
+}
+
+.ButtonsDentistInvoice-TotalPrice {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ButtonsDentistInvoice-ResetButton {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    background: #b2b2b2;
+    box-shadow: 0 -3px #4c4c4c inset;
+    transition: 0.2s;
+}
+
+.ButtonsDentistInvoice-ResetButton:hover {
+    background: #9e9e9e;
+}
+
+.ButtonsDentistInvoice-ResetButton:active {
+    background: #3c3c3c;
+    box-shadow: 0 3px #3c3c3c inset;
+}
+
+.ButtonsDentistInvoice-ResetButton_position {
+    margin-top: 30px;
+    margin-left: 50px;
 }
