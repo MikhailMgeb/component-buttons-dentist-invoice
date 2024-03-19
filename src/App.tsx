@@ -1,7 +1,9 @@
 import React from 'react';
 
-import './App.css';
 import { ButtonsDentistInvoice } from './components/ButtonsDentistInvoice/ButtonsDentistInvoice';
+import { UseHexagon } from './components/UseHexagon/UseHexagon';
+
+import './App.css';
 
 const App = () => {
   return (
@@ -19,6 +21,7 @@ const App = () => {
           channelCleaningPrice: 5000,
           treatmentCariesPrice: 2000
         }} />
+      <UseHexagon />
     </div>
   );
 }
