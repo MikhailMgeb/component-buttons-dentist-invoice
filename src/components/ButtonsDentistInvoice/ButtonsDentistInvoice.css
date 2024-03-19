@@ -1,0 +1,68 @@
+.ButtonsDentistInvoice-Item {
+    display: flex;
+    gap: 20px;
+    margin: 25px;
+}
+
+.ButtonsDentistInvoice-ItemCard {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.ButtonsDentistInvoice-ItemLabel {
+    width: 150px;
+}
+
+.ButtonsDentistInvoice-Button {
+    padding: 10px 15px;
+
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.ButtonsDentistInvoice-Button_plus {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    background: #40c781;
+    box-shadow: 0 -3px #35a76e inset;
+    transition: 0.2s;
+}
+
+.ButtonsDentistInvoice-Button_plus:hover {
+    background: #35a76e;
+}
+
+.ButtonsDentistInvoice-Button_plus:active {
+    background: #21935a;
+    box-shadow: 0 3px #21935a inset;
+}
+
+.ButtonsDentistInvoice-Button_minus {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    background: #dc143c;
+    box-shadow: 0 -3px #a20927 inset;
+    transition: 0.2s;
+}
+
+.ButtonsDentistInvoice-Button_minus:hover {
+    background: #a20927;
+}
+
+.ButtonsDentistInvoice-Button_minus:active {
+    background: #a20927;
+    box-shadow: 0 3px #a20927 inset;
+}
+
+.ButtonsDentistInvoice-ServiceCount {
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+}
