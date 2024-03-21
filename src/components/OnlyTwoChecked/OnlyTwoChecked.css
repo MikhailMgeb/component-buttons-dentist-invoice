@@ -1,0 +1,11 @@
+.OnlyTwoChecked {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 50px;
+}
+
+.OnlyTwoChecked-WrapperLabel {
+    display: inline-block;
+    width: 100px;
+}

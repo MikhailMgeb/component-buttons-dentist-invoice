@@ -14,7 +14,6 @@ const DEFAULT_VALUE = {
 const ButtonsDentistInvoice: FC<ButtonsDentistInvoiceProps> = ({ serviceName, price }) => {
     const [checkList, getCheckList] = useState<CheckList>(DEFAULT_VALUE);
 
-
     const handleClickControlService = (event: MouseEvent<HTMLInputElement>) => {
         const target = event.target as HTMLInputElement;
 
@@ -45,7 +44,7 @@ const ButtonsDentistInvoice: FC<ButtonsDentistInvoiceProps> = ({ serviceName, pr
     }
 
     return (
-        <article className={cnButtonsDentistInvoice('')}>
+        <article className={cnButtonsDentistInvoice()}>
             <ul className={cnButtonsDentistInvoice('List')}>
                 <li className={cnButtonsDentistInvoice('Item')}>
                     <div className={cnButtonsDentistInvoice('ItemCard')}>

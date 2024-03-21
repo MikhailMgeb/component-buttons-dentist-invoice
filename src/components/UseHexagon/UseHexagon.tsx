@@ -34,7 +34,7 @@ const UseHexagon = () => {
     }
 
     return (
-        <div className={cnUseHexagon('')}>
+        <div className={cnUseHexagon()}>
             <div className={cnUseHexagon('Field')} onChange={handleChangeTextInput}>
                 <input className={cnUseHexagon('Input')} name='topChildren' defaultValue={inscriptions.topChildren} />
                 <input className={cnUseHexagon('Input')} name='side1Children' defaultValue={inscriptions.side1Children} />
